@@ -11,7 +11,7 @@ library(digest)
 ## Set file paths **EACH USER SHOULD UPDATE**
 
 # *Update with your source path to the app folder*
-app_path <- "/Users/carriebarnett/Dropbox (Princeton)/SICSS Poli Sci Gender Project/JournalCodeR/"
+# app_path <- #ADD HERE
 
 # Responses path (no need to change)
 responses_path <- file.path(app_path, "responses/")
