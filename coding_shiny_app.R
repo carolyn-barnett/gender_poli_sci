@@ -81,9 +81,10 @@ loadPriors <- function(filesInfo=NULL, prior_responses=NULL) {
 ###################################################
 ## Define User Interface components
 
-## Step 1: Identify coder, ask for new data
-names <- c("None Selected", "Carrie", "Kathleen", 
-           "Katie", "Manika", "Mike")
+## Step 1: Identify coder, ask for new data 
+# edit coder names for your team
+names <- c("None Selected", "Coder 1", "Coder 2", 
+           "Coder 3", "Coder 4")
 
 ui_intro <- sidebarLayout(
     sidebarPanel(
@@ -108,12 +109,12 @@ ui_check <- fluidRow(
 
 
 ## Step 2: Code an Abstract
-# coding choices
+# coding choices - edit to make relevant to your project
 codes <- c("None selected",
-           "Gender research", 
-           "Gender implications only",
-           "Irrelevant research",
-           "Not a research article",
+           "Unambiguous", 
+           "Ambiguous",
+           "Excluded (content)",
+           "Excluded (type)",
            "Abstract missing",
            "I'm not sure")
 
