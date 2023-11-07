@@ -1,0 +1,21 @@
+﻿Variable,Description
+Journal,Journal
+Year,Year
+count_sco,"Total number of articles indexed by Scopus, all topics (i.e., all research article document types unrestricted by a gender keyword search)"
+count_wos,"Total number of articles indexed by Web of Science, all topics (i.e., all research article document types unrestricted by a gender keyword search)"
+n_all,Sum of count_sco and count_wos
+n_keyword,Number of articles returned by the gender keyword search
+Unambiguous,Count of articles coded as unambiguous gender research
+Ambiguous,Count of articles coded as ambiguous gender research
+Combined,Sum of Unambiguous and Ambiguous
+Exclude (Content),Count of articles coded as unrelated to gender research
+Exclude (Type),Count of articles coded as types other than original research
+Abstract Missing,Count of articles with a missing abstract
+n_key_uniq,Number of articles from the keyword search remaining after deduplication
+prop_uniq_key,Proportion of keyword articles that were unique (n_key_uniq / n_keyword)
+Scopus H-Index,H-Index generated from Scopus
+WOS H-Index,H-Index generated from Web of Science
+Abbreviation,Journal abbreviation
+Association,"Journal association/affiliation with a professional organization, if any"
+Year Founded,Year the journal was founded
+gender_journ,Journal is dedicated to publishing gender research? 0=No/1=Yes
